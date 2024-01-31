@@ -1,0 +1,156 @@
+/* Home.css */
+.hhover-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 17vw;
+  margin-right: 20px;
+  margin-left: 20px;
+  height: 9vw;
+  background: linear-gradient(45deg, #fefeff, #ffffff); /* Gradient background */
+  color: #000000;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow */
+}
+
+.hhover-div h2{
+  font-family: 'Poppins', sans-serif;
+  font-size: 2em;
+  margin: 0; /* Remove default margins */
+}
+.hhover-div p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2em;
+  margin: 0; /* Remove default margins */
+}
+
+
+.hhover-div:hover,
+.hhover-div.hovered {
+  width: 17vw;
+  height: 9vw;
+  color:#000000;
+  background: linear-gradient(45deg, #a6a4a4, #9a9a9a);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.hbody {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  scroll-behavior: smooth;
+  padding: 0 20px; /* Adjusted padding for better responsiveness */
+}
+
+.hbody::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('https://images.pexels.com/photos/6146978/pexels-photo-6146978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') center/cover no-repeat;
+  opacity: 0.6; /* Adjusted opacity for a subtle background effect */
+  z-index: -1;
+}
+/* Home.css */
+/* Home.css */
+.central-content {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 80px;
+  width: 70%;
+  color:white;
+  font-size: 1em;
+  background: linear-gradient(45deg, #7b7b7d, #464648);  /* Gradient background */
+  padding: 50px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out; /* Added transition for smooth effects */
+
+  /* Additional styling for more attractiveness */
+  position: relative;
+  overflow: hidden;
+}
+
+.central-content:hover {
+  transform: scale(1.02); /* Scale up on hover for a subtle effect */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  color:rgb(59, 57, 57);
+  background: linear-gradient(45deg, #464648, #7b7b7d);
+}
+
+.central-content h1 {
+  font-size: 2.5em;
+  color: #333;
+  margin-bottom: 20px;
+  transition: color 0.3s ease-in-out; /* Smooth color transition */
+}
+
+.central-content p {
+  font-size: 1.5em;
+  color: #c0b9b9;
+  transition: color 0.3s ease-in-out; /* Smooth color transition */
+}
+
+.central-content h2,
+.central-content h1 {
+  font-size: 2em;
+  color: #ffffff;
+  margin-bottom: 10px;
+  transition: color 0.3s ease-in-out; /* Smooth color transition */
+}
+
+.central-content ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.central-content li {
+  font-size: 1em;
+  color: #ffffff;
+  margin-bottom: 10px;
+  transition: color 0.3s ease-in-out; /* Smooth color transition */
+}
+
+.fade-in {
+  animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hidiv {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  gap: 20px; /* Adjust the gap between the inline divs */
+}
+
+
+
+.custom-font {
+  font-family: 'Arial', sans-serif;
+  font-size: 20px;
+}
+
+
+
+/* Add any other styles as needed */
